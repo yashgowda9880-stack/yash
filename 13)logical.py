@@ -1,0 +1,5 @@
+a = int(input("enter a number: "))
+b = int(input("enter a number: "))
+print(not(a>b))
+print(a and b >5)
+print(a or b >5)

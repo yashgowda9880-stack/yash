@@ -1,0 +1,12 @@
+print("FUTURE")
+boy_name = input("Boy Name: ")
+girl_name = input("Girl Name: ")
+boy_age = input("Boy Age: ")
+girl_age =input("Girl Age: ")
+boy_salary =int( input( "Boy salary: "))
+girl_salary =int(input  ("Girl salary:  "))
+#im using abs because sometimes girl salary is greater then boy salary
+salary_diff =abs(boy_salary - girl_salary)
+boy_address = input("Boy Address: ")
+print(f"{boy_name} Loves {girl_name} ")
+print(f" salary difference is: {salary_diff}")

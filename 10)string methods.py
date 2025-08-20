@@ -1,0 +1,5 @@
+sentence = input("Sentence:   ")
+print(sentence.upper())
+print(sentence.lower())
+print(sentence.strip())
+print(sentence.replace("yash","push"))
